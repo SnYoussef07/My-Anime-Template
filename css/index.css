@@ -1,9 +1,10 @@
+/* CARD */
 .card {
   position: relative;
   overflow: hidden;
   transition: 0.7s !important;
 
-  height: 80%; /* ???? */
+  height: 80%;
   width: 70%;
 }
 
@@ -12,7 +13,7 @@
 }
 
 .bodyCard {
-  height: 80%; /* ???? */
+  height: 80%;
 }
 
 .card .bodyCard {
@@ -43,16 +44,13 @@ img {
   max-width: 100%;
   height: auto;
 }
-
-.test1 {
-  background-color: #ffab00 !important;
-}
+/* END CARD */
 
 /* NAVBAR */
 nav {
   padding: 0 !important;
 
-  background-color: #0288d1 !important; /* Ou bg Dark*/
+  background-color: #0288d1 !important;
 }
 
 ul li {
@@ -73,3 +71,23 @@ ul hr {
 .nav1 {
   border-left: 2px solid #005b9f;
 }
+/* END NAVBAR */
+
+/* Carousel */
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffab00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+  height: 35px !important;
+  width: 35px !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffab00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+  height: 35px !important;
+  width: 35px !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  background-color: rgba(0, 91, 159, 0.2) !important;
+}
+/* END Carousel */
