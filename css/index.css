@@ -88,7 +88,7 @@ ul hr {
 
 .carousel-control-next,
 .carousel-control-prev {
-  background-color: rgba(0, 91, 159, 0.2) !important;
+  background-color: rgba(255, 255, 255, 0.6) !important;
 }
 /* END Carousel */
 
@@ -97,6 +97,19 @@ body{
     background-color: #f7f7f7 !important;
 }
 
-.container{
-    background-color: white !important;
+section{
+   background-color: white !important; 
+}
+
+/* TEST */
+
+.test{
+  width: 60%;
+  height: 2px;
+  border-radius: 10px;
+  margin-left: 0;
+}
+
+.fa-fire , .fa-star , .fa-plus-square{
+  color: #e3474b;
 }
