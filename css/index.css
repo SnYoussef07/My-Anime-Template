@@ -91,3 +91,12 @@ ul hr {
   background-color: rgba(0, 91, 159, 0.2) !important;
 }
 /* END Carousel */
+
+/* Body */
+body{
+    background-color: #f7f7f7 !important;
+}
+
+.container{
+    background-color: white !important;
+}
