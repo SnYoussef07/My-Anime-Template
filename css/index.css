@@ -111,7 +111,11 @@ section{
   color: #e3474b;
 }
 
-/* BTN */
-.btn{
-  padding: .175rem .65rem !important;
+
+.btn-color{
+  background-color: #0288d1 !important;
+}
+
+.btn-color:hover{
+  background-color: #ffab00 !important;
 }
