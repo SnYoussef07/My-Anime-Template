@@ -5,22 +5,22 @@ nav {
   background-color: #0288d1 !important;
 }
 
-ul li {
+nav ul li {
   border-right: 2px solid #005b9f;
   transition: 0.7s;
 }
 
-li:hover {
+nav li:hover {
   background-color: #ffab00;
 }
 
-ul hr {
+nav ul hr {
   background-color: red;
   width: 2px !important;
   height: 100px !important;
 }
 
-.nav1 {
+nav .nav1 {
   border-left: 2px solid #005b9f;
 }
 /* END NAVBAR */
