@@ -142,6 +142,7 @@ section {
   border-radius: 3px;
   border: 1px solid #d1d3d4;
   font-weight: normal;
+  background-color: #fff;
 }
 
 .funkyradio input[type="checkbox"]:empty {
@@ -168,7 +169,7 @@ section {
   left: 0;
   content: "";
   width: 2.5em;
-  background: #d1d3d4;
+  background: #e1e4e6;
   border-radius: 3px 0 0 3px;
 }
 
@@ -211,9 +212,9 @@ section {
 /* Filter Animes */
 .textGenre {
   font-weight: bold;
-  color: #e3474b;
+  color: #fff;
 }
 
 .filterAnimes {
-  background-color: white;
+  background-color: #0288d1;
 }
