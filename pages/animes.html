@@ -67,117 +67,152 @@
     </nav>
     <!-- END NAV -->
     <div class="container mt-5 py-5">
+       <!-- TOOLBAR -->
+       <div
+       class="btn-toolbar justify-content-center"
+       role="toolbar"
+       aria-label="Toolbar with button groups"
+     >
+       <div
+         class="btn-group mr-2 mb-2"
+         role="group"
+         aria-label="First group"
+       >
+         <button type="button" class="btn btn-color text-white">A</button>
+         <button type="button" class="btn btn-color text-white ">B</button>
+         <button type="button" class="btn btn-color text-white ">C</button>
+         <button type="button" class="btn btn-color text-white ">D</button>
+         <button type="button" class="btn btn-color text-white ">E</button>
+         <button type="button" class="btn btn-color text-white ">F</button>
+         <button type="button" class="btn btn-color text-white ">G</button>
+         <button type="button" class="btn btn-color text-white ">H</button>
+         <button type="button" class="btn btn-color text-white ">I</button>
+       </div>
+       <div
+         class="btn-group mr-2 mb-2"
+         role="group"
+         aria-label="Second group"
+       >
+         <button type="button" class="btn btn-color text-white">J</button>
+         <button type="button" class="btn btn-color text-white">K</button>
+         <button type="button" class="btn btn-color text-white">L</button>
+         <button type="button" class="btn btn-color text-white">M</button>
+         <button type="button" class="btn btn-color text-white">N</button>
+         <button type="button" class="btn btn-color text-white">O</button>
+         <button type="button" class="btn btn-color text-white">P</button>
+         <button type="button" class="btn btn-color text-white">Q</button>
+       </div>
+       <div
+         class="btn-group mr-2 mb-2"
+         role="group"
+         aria-label="Third group"
+       >
+         <button type="button" class="btn btn-color text-white">R</button>
+         <button type="button" class="btn btn-color text-white">S</button>
+         <button type="button" class="btn btn-color text-white">T</button>
+         <button type="button" class="btn btn-color text-white">U</button>
+         <button type="button" class="btn btn-color text-white">V</button>
+         <button type="button" class="btn btn-color text-white">W</button>
+         <button type="button" class="btn btn-color text-white">x</button>
+         <button type="button" class="btn btn-color text-white">Y</button>
+         <button type="button" class="btn btn-color text-white">Z</button>
+       </div>
+     </div>
+     <!-- End TOOLBAR -->
+     <hr />
+     <!-- SEARCH -->
+     <div class="d-flex justify-content-center">
+       <form action="" class="search-form">
+         <div class="searchbar">
+           <input
+             class="search_input"
+             type="text"
+             name=""
+             placeholder="Search..."
+           />
+           <button type="submit" class="search_icon">
+             <i class="fas fa-search"></i>
+           </button>
+         </div>
+       </form>
+     </div>
+     <hr />
+     <!-- END SEARCH -->
       <section class="row mt-5">
         <!-- Filter -->
-        <div class="col-lg-3 py-5 px-3 rounded shadow-sm filterAnimes h-75">
+        <div
+          class="col-lg-3 py-5 px-3 rounded shadow-sm filterAnimes h-75 mb-5"
+        >
           <h3 class="mb-4 textGenre">Genres</h3>
-          <hr>
+          <hr />
           <div class="animesList mt-4">
             <form action="">
-                <div class="funkyradio">
-                    <div class="funkyradio-danger">
-                        <input type="checkbox" name="checkbox1" id="checkbox1" checked/>
-                        <label for="checkbox1">Action</label>
-                    </div>
-                    <div class="funkyradio-danger">
-                        <input type="checkbox" name="checkbox2" id="checkbox2" checked/>
-                        <label for="checkbox2">Drama</label>
-                    </div>
-                    <div class="funkyradio-danger">
-                        <input type="checkbox" name="checkbox3" id="checkbox3" checked/>
-                        <label for="checkbox3">Sports</label>
-                    </div>
-                    <div class="funkyradio-danger">
-                        <input type="checkbox" name="checkbox4" id="checkbox4" checked/>
-                        <label for="checkbox4">Psychological</label>
-                    </div>
-                    <div class="funkyradio-danger">
-                        <input type="checkbox" name="checkbox5" id="checkbox5" checked/>
-                        <label for="checkbox5">Samurai</label>
-                    </div>
-                    <div class="funkyradio-danger">
-                        <input type="checkbox" name="checkbox6" id="checkbox6" checked/>
-                        <label for="checkbox6">Ect...</label>
-                    </div>
+              <div class="funkyradio">
+                <div class="funkyradio-danger">
+                  <input
+                    type="checkbox"
+                    name="checkbox1"
+                    id="checkbox1"
+                    checked
+                  />
+                  <label for="checkbox1">Action</label>
                 </div>
-            </form>
-          </div>
-        </div>
-        <!-- Animes -->
-        <div class="col-lg-9 px-5">
-          <!-- TOOLBAR -->
-          <div
-            class="btn-toolbar justify-content-center"
-            role="toolbar"
-            aria-label="Toolbar with button groups"
-          >
-            <div
-              class="btn-group mr-2 mb-2"
-              role="group"
-              aria-label="First group"
-            >
-              <button type="button" class="btn btn-color text-white">A</button>
-              <button type="button" class="btn btn-color text-white ">B</button>
-              <button type="button" class="btn btn-color text-white ">C</button>
-              <button type="button" class="btn btn-color text-white ">D</button>
-              <button type="button" class="btn btn-color text-white ">E</button>
-              <button type="button" class="btn btn-color text-white ">F</button>
-              <button type="button" class="btn btn-color text-white ">G</button>
-              <button type="button" class="btn btn-color text-white ">H</button>
-              <button type="button" class="btn btn-color text-white ">I</button>
-            </div>
-            <div
-              class="btn-group mr-2 mb-2"
-              role="group"
-              aria-label="Second group"
-            >
-              <button type="button" class="btn btn-color text-white">J</button>
-              <button type="button" class="btn btn-color text-white">K</button>
-              <button type="button" class="btn btn-color text-white">L</button>
-              <button type="button" class="btn btn-color text-white">M</button>
-              <button type="button" class="btn btn-color text-white">N</button>
-              <button type="button" class="btn btn-color text-white">O</button>
-              <button type="button" class="btn btn-color text-white">P</button>
-              <button type="button" class="btn btn-color text-white">Q</button>
-            </div>
-            <div
-              class="btn-group mr-2 mb-2"
-              role="group"
-              aria-label="Third group"
-            >
-              <button type="button" class="btn btn-color text-white">R</button>
-              <button type="button" class="btn btn-color text-white">S</button>
-              <button type="button" class="btn btn-color text-white">T</button>
-              <button type="button" class="btn btn-color text-white">U</button>
-              <button type="button" class="btn btn-color text-white">V</button>
-              <button type="button" class="btn btn-color text-white">W</button>
-              <button type="button" class="btn btn-color text-white">x</button>
-              <button type="button" class="btn btn-color text-white">Y</button>
-              <button type="button" class="btn btn-color text-white">Z</button>
-            </div>
-          </div>
-          <!-- End TOOLBAR -->
-          <hr />
-          <div class="d-flex justify-content-center">
-            <form action="" class="search-form">
-              <div class="searchbar">
-                <input
-                  class="search_input"
-                  type="text"
-                  name=""
-                  placeholder="Search..."
-                />
-                <button type="submit" class="search_icon">
-                  <i class="fas fa-search"></i>
-                </button>
+                <div class="funkyradio-danger">
+                  <input
+                    type="checkbox"
+                    name="checkbox2"
+                    id="checkbox2"
+                    checked
+                  />
+                  <label for="checkbox2">Drama</label>
+                </div>
+                <div class="funkyradio-danger">
+                  <input
+                    type="checkbox"
+                    name="checkbox3"
+                    id="checkbox3"
+                    checked
+                  />
+                  <label for="checkbox3">Sports</label>
+                </div>
+                <div class="funkyradio-danger">
+                  <input
+                    type="checkbox"
+                    name="checkbox4"
+                    id="checkbox4"
+                    checked
+                  />
+                  <label for="checkbox4">Psychological</label>
+                </div>
+                <div class="funkyradio-danger">
+                  <input
+                    type="checkbox"
+                    name="checkbox5"
+                    id="checkbox5"
+                    checked
+                  />
+                  <label for="checkbox5">Samurai</label>
+                </div>
+                <div class="funkyradio-danger">
+                  <input
+                    type="checkbox"
+                    name="checkbox6"
+                    id="checkbox6"
+                    checked
+                  />
+                  <label for="checkbox6">Ect...</label>
+                </div>
               </div>
             </form>
           </div>
-          <hr />
+        </div>
+        <!-- END Filter -->
+        <!-- Animes -->
+        <div class="col-lg-9 px-5">
           <!-- Section All Anim -->
-          <div class="row text-center justify-content-center animes mt-4">
+          <div class="row text-center justify-content-center animes">
             <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-              <a href="">
+              <a href="./oneAnime.html">
                 <div class="card p-1">
                   <div
                     class="card-tit text-center d-flex justify-content-center align-items-center"
@@ -197,7 +232,7 @@
               </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-              <a href="">
+              <a href="./oneAnime.html">
                 <div class="card p-1">
                   <div
                     class="card-tit text-center d-flex justify-content-center align-items-center"
@@ -216,7 +251,7 @@
               </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-              <a href="">
+              <a href="./oneAnime.html">
                 <div class="card p-1">
                   <div
                     class="card-tit text-center d-flex justify-content-center align-items-center"
@@ -235,7 +270,7 @@
               </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-              <a href="">
+              <a href="./oneAnime.html">
                 <div class="card p-1">
                   <div
                     class="card-tit text-center d-flex justify-content-center align-items-center"
@@ -254,7 +289,7 @@
               </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-              <a href="">
+              <a href="./oneAnime.html">
                 <div class="card p-1">
                   <div
                     class="card-tit text-center d-flex justify-content-center align-items-center"
@@ -273,7 +308,7 @@
               </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-              <a href="">
+              <a href="./oneAnime.html">
                 <div class="card p-1">
                   <div
                     class="card-tit text-center d-flex justify-content-center align-items-center"
@@ -292,7 +327,7 @@
               </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-              <a href="">
+              <a href="./oneAnime.html">
                 <div class="card p-1">
                   <div
                     class="card-tit text-center d-flex justify-content-center align-items-center"
@@ -311,7 +346,7 @@
               </a>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-              <a href="">
+              <a href="./oneAnime.html">
                 <div class="card p-1">
                   <div
                     class="card-tit text-center d-flex justify-content-center align-items-center"
