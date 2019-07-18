@@ -1,8 +1,27 @@
 /* SELECT */
-select option{
-    background-color: red !important;
+
+/* Color */
+/*
+Yellow = #ffab00
+Blue = #0288d1;
+Red = #e3474b;
+Black = #343a40;
+
+*/
+
+.faArrow {
+  color: white;
 }
 
-.container{
-/*     background-color: #212529;
- */}
+.divSelection {
+  background-color: #0288d1 !important;
+}
+
+.card{
+    margin-top: 7rem !important;
+}
+
+.card-body{
+    color: black;
+    font-weight: bold;
+}
