@@ -61,5 +61,17 @@ section {
   color: white;
 }
 
+/* HR */
 
+.Ahr {
+  width: 60%;
+  height: 2px;
+  border-radius: 10px;
+  margin-left: 0;
+}
 
+.fa-fire,
+.fa-star,
+.fa-plus-square {
+  color: #e3474b;
+}
